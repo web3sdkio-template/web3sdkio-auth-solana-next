@@ -1,6 +1,6 @@
 import { WalletModalProvider } from "@solana/wallet-adapter-react-ui";
-import { ThirdwebProvider } from "@thirdweb-dev/react/solana";
-import { Network } from "@thirdweb-dev/sdk/solana";
+import { Web3sdkioProvider } from "@web3sdkio/react/solana";
+import { Network } from "@web3sdkio/sdk/solana";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
@@ -9,7 +9,7 @@ const network: Network = "mainnet-beta";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider
+    <Web3sdkioProvider
       network={network}
       authConfig={{
         domain: "example.com",
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <WalletModalProvider>
         <Component {...pageProps} />
       </WalletModalProvider>
-    </ThirdwebProvider>
+    </Web3sdkioProvider>
   );
 }
 
