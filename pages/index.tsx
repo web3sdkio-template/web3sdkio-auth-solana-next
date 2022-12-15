@@ -1,4 +1,4 @@
-import { useUser, useLogin, useLogout } from "@web3sdkio/react/solana";
+import { useUser, useLogin, useLogout } from "@thirdweb-dev/react/solana";
 import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 require("@solana/wallet-adapter-react-ui/styles.css");
 import type { NextPage } from "next";

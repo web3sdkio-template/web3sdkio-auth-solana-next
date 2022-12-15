@@ -1,5 +1,5 @@
 {
-  "name": "web3sdkio-auth-solana-next",
+  "name": "thirdweb-auth-solana-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,9 +12,9 @@
     "@solana/wallet-adapter-react": "^0.15.20",
     "@solana/wallet-adapter-react-ui": "^0.9.18",
     "@solana/wallet-adapter-wallets": "^0.19.1",
-    "@web3sdkio/auth": "^2",
-    "@web3sdkio/react": "^3",
-    "@web3sdkio/sdk": "^3",
+    "@thirdweb-dev/auth": "^2",
+    "@thirdweb-dev/react": "^3",
+    "@thirdweb-dev/sdk": "^3",
     "next": "^12.1.6",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"

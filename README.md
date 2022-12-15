@@ -1,6 +1,6 @@
 ## Getting Started
 
-This example demonstrates how to use web3sdkio Auth for Solana wallets with NextJS.
+This example demonstrates how to use thirdweb Auth for Solana wallets with NextJS.
 
 To run the project, first clone this repository, and then run one of the following commands to install the dependencies:
 
@@ -10,10 +10,10 @@ npm install
 yarn install
 ```
 
-Next, you need to create a `.env.local` file and add the `WEB3SDKIO_AUTH_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. Your file should use something like the following:
+Next, you need to create a `.env.local` file and add the `THIRDWEB_AUTH_PRIVATE_KEY` variable to it with the private key of the wallet you want to use as the admin wallet to generate and verify payloads. Your file should use something like the following:
 
 ```.env.local
-WEB3SDKIO_AUTH_PRIVATE_KEY=...
+THIRDWEB_AUTH_PRIVATE_KEY=...
 ```
 
 Finally, you can run the project with one of the following commands:
@@ -28,15 +28,15 @@ Now, you can navigate to [http://localhost:3000](http://localhost:3000) to visit
 
 ## Learn More
 
-To learn more about web3sdkio, take a look at the following resources:
+To learn more about thirdweb, take a look at the following resources:
 
-- [web3sdkio Solana Documentation](https://portal.web3sdk.io/solana) - learn about web3sdkio Solana.
-- [web3sdkio Auth Documentation](https://portal.web3sdk.io/auth) - learn about web3sdkio Auth.
-- [web3sdkio React Documentation](https://portal.web3sdk.io/react) - learn about our React SDK.
-- [web3sdkio Portal](https://portal.web3sdk.io) - check our guides and development resources.
+- [thirdweb Solana Documentation](https://portal.thirdweb.com/solana) - learn about thirdweb Solana.
+- [thirdweb Auth Documentation](https://portal.thirdweb.com/auth) - learn about thirdweb Auth.
+- [thirdweb React Documentation](https://portal.thirdweb.com/react) - learn about our React SDK.
+- [thirdweb Portal](https://portal.thirdweb.com) - check our guides and development resources.
 
-You can check out [the web3sdkio GitHub organization](https://github.com/web3sdkio) - your feedback and contributions are welcome!
+You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).

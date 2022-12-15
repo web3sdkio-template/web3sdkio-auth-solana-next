@@ -1,4 +1,4 @@
-import { getUser } from "./auth/[...web3sdkio]";
+import { getUser } from "./auth/[...thirdweb]";
 import { NextApiRequest, NextApiResponse } from "next";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
